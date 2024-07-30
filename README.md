@@ -29,8 +29,8 @@ This code implements an optimal market-neutral currency trading strategy for cry
 - $T$: set of all time periods
 
 ## Key Parameters
-* `CROSSING_MEAN`: Mean crossing threshold.
-* `CROSSING_MAX`: Maximum crossing threshold.
+* `CROSSING_MEAN`: Position closing threshold.
+* `CROSSING_MAX`: Position opening threshold.
 * `ORIG_AMOUNT`: Original investment amount.
 * `RISK_FREE_RATE`: Risk-free rate for calculations.
 * `TX_COST`: Transaction cost.
