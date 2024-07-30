@@ -12,22 +12,21 @@ This code implements an optimal market-neutral currency trading strategy for cry
 * Evaluating strategies using various financial metrics.
 
 ## Core algorithm
-![optimisation](https://github.com/user-attachments/assets/cfa0a0a6-61cb-4798-98e6-dd013578ec7a)
+![optimisation](https://github.com/user-attachments/assets/d26242d7-2ffa-44ed-b8a9-4267a1136186)
 
-- $N$: Set of all pairs
-- $w_n$: Weight vector for the n-th pair
-- $\text{EP}_n$: Expected profit vector for the n-th pair
+- $N$: set of all pairs
+- $w_n$: weight vector for the n-th pair
+- $\text{EP}_n$: expected profit vector for the n-th pair
 - $\odot$: Hadamard product
-- $\lambda$: Risk aversion coefficient
-- $\text{cov}_n$: Covariance matrix for the n-th pair
-- $w_{n,\text{long}}$: Long weight for the n-th pair
-- $w_{n,\text{short}}$: Short weight for the n-th pair
-- $\text{TW}_c$: Trading weight for currency $c$
-- $c$: Currency
-- $tc$: Transaction cost
-- $P_{c_1,t}$: Price of currency $c_1$ at time $t$
-- $P_{c_2,t}$: Price of currency $c_2$ at time $t$
-- $T$: Set of all time periods
+- $\lambda$: risk aversion coefficient
+- $\text{cov}_n$: covariance matrix for the n-th pair
+- $w_{n,\text{long}}$: long weight for the n-th pair
+- $w_{n,\text{short}}$: short weight for the n-th pair
+- $\text{TW}_c$: trading weight for currency $c$
+- $c$: currency
+- $tc$: transaction cost
+- $P_{c,t}$: price of currency $c$ at time $t$
+- $T$: set of all time periods
 
 ## Key Parameters
 * `CROSSING_MEAN`: Mean crossing threshold.
