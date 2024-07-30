@@ -12,6 +12,7 @@ This code implements an optimal market-neutral currency trading strategy for cry
 * Evaluating strategies using various financial metrics.
 
 ## Core algorithm
+![optimisation](https://github.com/user-attachments/assets/cfa0a0a6-61cb-4798-98e6-dd013578ec7a)
 
 - $N$: Set of all pairs
 - $w_n$: Weight vector for the n-th pair
