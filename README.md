@@ -2,7 +2,7 @@
 
 This repository contains the open-source code for the paper *Optimal Market-Neutral Currency Trading on the Cryptocurrency Platform*[^1] 
 
-[^1]: Yang, H., & Malik, A. (2024). Optimal market-neutral currency trading on the cryptocurrency platform (arXiv:2405.15461). arXiv. https://doi.org/10.48550/arXiv.2405.15461
+[^1]: Yang, H., & Malik, A. (2024). Optimal market-neutral multivariate pair trading on the cryptocurrency platform. International Journal of Financial Studies, 12(3), 77. https://doi.org/10.3390/ijfs12030077
 
 ## Overview
 This code implements an optimal market-neutral currency trading strategy for cryptocurrencies. The approach involves:
@@ -12,21 +12,7 @@ This code implements an optimal market-neutral currency trading strategy for cry
 * Evaluating strategies using various financial metrics.
 
 ## Core algorithm
-![optimisation](https://github.com/user-attachments/assets/d26242d7-2ffa-44ed-b8a9-4267a1136186)
-
-- $N$: set of all pairs
-- $w_n$: weight vector for the n-th pair
-- $\text{EP}_n$: expected profit vector for the n-th pair
-- $\odot$: Hadamard product
-- $\lambda$: risk aversion coefficient
-- $\text{cov}_n$: covariance matrix for the n-th pair
-- $w_{n,\text{long}}$: long weight for the n-th pair
-- $w_{n,\text{short}}$: short weight for the n-th pair
-- $\text{TW}_c$: trading weight for currency $c$
-- $c$: currency
-- $tc$: transaction cost
-- $P_{c,t}$: price of currency $c$ at time $t$
-- $T$: set of all time periods
+![opti](https://github.com/user-attachments/assets/539e18c9-8c73-400c-9e92-7d98d0566e06)
 
 ## Key Parameters
 * `CROSSING_MEAN`: Position closing threshold.
